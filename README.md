@@ -5,21 +5,22 @@ Slideshow presentation:
 
 https://docs.google.com/presentation/d/1gdCljHBmy33du5r4Wpt0XtHxaw8_HIau5YnDaOLcn-A/edit#slide=id.p
 
-FILES:
+***FILES***
 
 model.py: setup for training (file will work for all 3 experiments)
 
-Sine Wave Forecasting:
+
+**Sine Wave Forecasting**
 
 sine.py: TensorFlow Training Model, plotting
 
-ECG Forecasting:
+**ECG Forecasting**
 
 ecg.py, TensorFlow Training Model, plotting
 
 ECGdata.py (computer generated ECG data)
 
-Ad Impression Forecasting:
+**Ad Impression Forecasting**
 
 ads.py: TensorFlow Training Model, plotting 
 
