@@ -25,3 +25,7 @@ ECGdata.py (computer generated ECG data)
 ads.py: TensorFlow Training Model, plotting 
 
 testAdID1.py, testAdID3.py, testAdID3.py: test data sets of ad impressions
+
+*TRY*
+Adjusting Hyperparameters: 
+  -increase & decrease RNN LAYERS, TIMESTEPS, LEARNING RATE, etc
