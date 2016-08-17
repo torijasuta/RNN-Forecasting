@@ -3,7 +3,7 @@ Using LSTM RNN to forecast time series; includes sine wave, electrocardiogram an
 
 Slideshow presentation:
 
-https://docs.google.com/presentation/d/1gdCljHBmy33du5r4Wpt0XtHxaw8_HIau5YnDaOLcn-A/edit#slide=id.p
+https://docs.google.com/presentation/d/16BKVKNZbm0HJUiFl8UeZDi9HjD4OmqfvoKmTMMK78Nk/edit?usp=sharing
 
 ***FILES***
 
