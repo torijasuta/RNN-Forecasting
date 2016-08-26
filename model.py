@@ -50,6 +50,17 @@ def generate_data(data, time_steps, seperate=False):
 
 
 def lstm_model(time_steps, rnn_layers, dense_layers=None):
+    """
+ 3     Creates a deep model based on:
+ 4         * stacked lstm cells
+ 5         * an optional dense layers
+ 6     :param time_steps: the number of time steps the model will be looking at.
+ 7     :param rnn_layers: list of int or dict
+ 8                          * list of int: the steps used to instantiate the `BasicLSTMCell` cell
+ 9                          * list of dict: [{steps: int, keep_prob: int}, ...]
+10     :param dense_layers: list of nodes for each layer
+11     :return: the model definition
+12     """
     def lstm_cells(layers):
         if isinstance(layers[0], dict):
             return [tf.nn.rnn_cell.DropoutWrapper(tf.nn.rnn_cell.BasicLSTMCell(layer['steps'],
